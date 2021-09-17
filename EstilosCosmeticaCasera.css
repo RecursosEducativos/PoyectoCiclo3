@@ -1,0 +1,14 @@
+.header-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+
+}
+.barra-navegacion {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+}
