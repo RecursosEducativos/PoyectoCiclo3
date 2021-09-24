@@ -28,8 +28,18 @@ table {
   
 td  {
     vertical-align: top;
+   
 }
-hr {
-     background-color: #123455;
- }
+
+hr { 
+    display: block;
+    height: 10px;
+    border: 0;
+    border-top: 1px solid rgb(255, 3, 171); 
+    margin: 1em 0; 
+    padding: 0; 
+}
+
+
+ 
 
