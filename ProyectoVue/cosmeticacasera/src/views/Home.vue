@@ -62,7 +62,7 @@
                                     destaca que favorece la circulación sanguínea, aumenta el sistema inmunitario mental, 
                                     estimula y da energía. Asimismo, es muy utilizado para el cuidado de la piel grasa y con acné,
                                     así como para actuar ante las picaduras de mosquitos o heridas difíciles de curar.</p>
-                                    <a href="#" class="btn btn-primary">Ver Más</a>
+                                    <a href="#" class="btn btn-primary">Comprar</a>
                                 </div>
                             </div>
                         </div>
@@ -78,7 +78,7 @@
                             Facilita la expectoración y es muy adecuado para la inhalación en casos de resfriados ya que tiene efecto positivo 
                             al tracto respiratorio y ayuda a aliviar tos, bronquitis, dolores de oído y sinusitis. En la piel, también se utiliza 
                             para piel con impurezas y piel con acné.</p>
-                            <a href="#" class="btn btn-primary">Ver Más</a>
+                            <a href="#" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                 </div>
@@ -94,7 +94,7 @@
                                 Excelente para la fatiga mental y la depresión. En aromaterapia, se usa contra problemas respiratorios,
                                 digestivos, cansancio, dolor de cabeza y tensiones nerviosas. El aceite esencial de menta es casi incoloro,
                                 y tiene un olor fuerte y penetrante, dulce y picante.</p>
-                            <a href="#" class="btn btn-primary">Ver Más</a>
+                            <a href="#" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                 </div>
@@ -111,7 +111,7 @@
                                 Aplicado externamente, el romero del tipo cineol tiene propiedades curativas y calmantes en la cicatrización de heridas y enfermedades fúngicas. 
                                 Muy útil en casos de los trastornos circulatorios. Incluso con el cuidado del cabello, especialmente del cabello graso. 
                                 Este tipo de aceite esencial de romero también es usado en problemas como trastornos nerviosos, agotamiento mental y apatía.</p>
-                                <a href="#" class="btn btn-primary">Ver Más</a>
+                                <a href="#" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                 </div>
@@ -129,7 +129,7 @@
                                     antiséptico. Muy buena tolerancia en la piel. Para uso en pieles grasientas, 
                                     con impurezas, acne, piel irritada y con tendencia a alergias, quemaduras y pequeñas heridas,
                                     picaduras de mosquitos, tiene propiedades antimicrobiales. Repele a mosquitos y pollila.</p>
-                                <a href="#" class="btn btn-primary">Ver Más</a>
+                                <a href="#" class="btn btn-primary">Comprar</a>
                             </div>
                     </div>
                 </div>
@@ -146,7 +146,7 @@
                                 perfumería, terapéutico, alimentos y aromaterapia. Es excelente emoliente, refrescante, especial para relajar la tensión,
                                 es muy delicado para la piel, se recomienda para baños, lociones corporales. Presenta propiedades terapéuticas: analgésico,
                                 antialérgico, antiinflamatorio, antidepresivo, antiespasmódico, antiséptico, antiviral, emenagogo, sedante.</p>
-                            <a href="#" class="btn btn-primary">Ver Más</a>
+                            <a href="#" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                 </div>
@@ -162,7 +162,7 @@
                                 natural con amplio espectro de acción.
                                 Abre los pulmones y tiene acción refrescante general. 
                                 Tónico vigorizante. Reafirma los tejidos y facilita la cicatrización de heridas.</p>
-                            <a href="#" class="btn btn-primary">Ver Más</a>
+                            <a href="#" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                 </div>
@@ -177,7 +177,7 @@
                             <p class="card-text">
                                 El aceite esencial de naranjas dulces tiene propiedades calmantes, relajantes...
                                 y ayuda a mejorar el ánimo.</p>
-                            <a href="#" class="btn btn-primary">Ver Más</a>
+                            <a href="#" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                 </div>
@@ -193,7 +193,7 @@
                                 El aceite esencial de mandarina, como otros aceites esenciales se extrae de la cascara de la mandarina y
                                 es muy utilizado en la aromaterapia, y posee propiedades antisépticas, antiespasmódicas, depurativas,
                                 sedantes, digestivas y tónicas.</p>
-                            <a href="#" class="btn btn-primary">Ver Más</a>
+                            <a href="#" class="btn btn-primary">Comprar</a>
                         </div>
                     </div>
                 </div>
