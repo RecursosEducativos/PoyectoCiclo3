@@ -4,17 +4,31 @@
     <nav>
     <div class="container">
            
-      <ul class="barra-navegacion">
+      
         <img border="0" src="@/assets/logo.png" width="350" height="120">
-                   
+           
           <router-link to="/">Inicio</router-link> |
-          <router-link to="/producto">Productos</router-link> |
+          <select name="Productos" background>
+            
+            <option selected value="0"> Productos </option>
+            <option value="1">
+            <router-link to="/aceitesesenciales">Aceites Esenciales</router-link>
+            </option>
+            <option value="2">Aceites Vegetales Puros</option> 
+            <option value="3">Aceites Vegetales Macerados</option>
+            <option value="10">Hidrolatados</option> 
+            <option value="11">Mantecas y Ceras</option> 
+            <option value="12">Arcillas</option>
+            
+          
+            </select>  |       
           <router-link to="/recetas">Recetas</router-link> |
           <router-link to="/blog">Blog</router-link> |
           <router-link to="/nosotros">Nosotros</router-link> |
+          <!--<router-link to="/aceitesesenciales">Aceites Esenciales</router-link> !-->
           <img border="0" src="./assets/login.png" href= "login.html" width="30" height="30">
           <img border="0" src="./assets/carrito.png" href= "carrito.html" width="30" height="30">
-      </ul>        
+           
                 
     </div>
   </nav>
@@ -86,6 +100,9 @@
 
 </template>
 
+ 
+
+
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif, Monserran;
@@ -107,6 +124,23 @@
 #nav a.router-link-exact-active {
   color: #42b983;
 }
+
+select {
+  background-color: #d7eef3;
+  border: 0px;
+  color: #3488db;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+select a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+#body {
+    background-color: #d7eef3;
+    font-family:Montserrat,sans-serif;
+    
+  }
 
 
 </style>
