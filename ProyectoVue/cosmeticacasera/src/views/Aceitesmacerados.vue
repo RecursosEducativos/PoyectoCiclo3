@@ -2,7 +2,7 @@
     <div class="container">
        
         <div class="row">
-            <img src= "../assets/ArbolTe1.png" class="card-img-top" alt="Imagene Producto">
+           
         <card ></card>
 
     </div>

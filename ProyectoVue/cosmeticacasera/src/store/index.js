@@ -3,7 +3,7 @@ import { createStore } from 'vuex'
 export default createStore({
   state: {
 
-    productos:[   
+    productos:[  
       {
        codigo:"AE-10-100",
        nombre:"A.E. DE ARBOL DE TE DE 10ML",
@@ -11,7 +11,7 @@ export default createStore({
        capacidad:"10 ML",
        inventario:20,
        precio_p:28000,
-       urlfoto:"@/assets/ArbolTe2.png"
+       urlfoto:"/assets/ArbolTe2.png"
      },
 
      {
@@ -21,7 +21,7 @@ export default createStore({
        capacidad:"10 ML",
        inventario:20,
        precio_p:28000,
-       urlfoto:"@/assets/Lavanda2.png"
+       urlfoto:"/assets/Lavanda2.png"
    },
    {
     codigo:"AE-05-100",
@@ -29,7 +29,7 @@ export default createStore({
     capacidad:"5 ML",
     inventario:20,
     precio_p:14000,
-    urlfoto: "@/assets/ArbolTe1.png"
+    urlfoto: "/assets/ArbolTe1.png"
 },
 {codigo:"AE-10-100",
     nombre:"A.E. DE ARBOL DE TE DE 10ML",
@@ -37,28 +37,28 @@ export default createStore({
     capacidad:"10 ML",
     inventari:20,
     precio_p:28000,
-    urlfoto: "@/assets/ArbolTe2.png"
+    urlfoto: "/assets/ArbolTe2.png"
 },
 {codigo:"AE-05-103",
     descripcion:"A.E. DE EUCALIPTO DE 5ML",
     capacidad:"5 ML",
     inventario:20,
     precio_p:15000,
-    urlfoto: "@/assets/Eucalipto1.png"
+    urlfoto: "/assets/Eucalipto1.png"
 },
 {codigo:"AE-10-103",
     descripcion:"A.E. DE EUCALIPTO DE 10ML",
     capacidad:"10 ML",
     inventario:20,
     precio_p:30000,
-    urlfoto: "@/assets/Eucalipto2.png"
+    urlfoto: "/assets/Eucalipto2.png"
 },
 {codigo:"AE-05-104",
     descripcion:"A.E. DE LAVANDA DE 5ML",
     capacidad:"5 ML",
     inventario:20,
     precio_p:14000,
-    urlfoto: "@/assets/Lavanda1.png"
+    urlfoto: "/assets/Lavanda1.png"
 },
 {codigo:"AE-10-104",
     nombre:"A.E. DE LAVANDA DE 10ML",
@@ -66,7 +66,7 @@ export default createStore({
     capacidad:"10 ML",
     inventario:20,
     precio_p:28000,
-    urlfoto: "@/assets/Lavanda2.png"
+    urlfoto: "/assets/Lavanda2.png"
 }
 ]
    

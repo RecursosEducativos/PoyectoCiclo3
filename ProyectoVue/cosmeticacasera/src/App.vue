@@ -16,7 +16,7 @@
               <li> <router-link class="dropdown-item" to="/aceitesesenciales">Aceites Esenciales</router-link> </li>
               <li><router-link class="dropdown-item" to="/aceitespuros">Aceites Vegetales Puros</router-link> </li>
               <li> <router-link class="dropdown-item" to="/aceitesmacerados">Aceites Vegetales Macerados</router-link> </li>
-              <li> <router-link class="dropdown-item" to="/hidrolatados">Hidrolatados</router-link> </li>
+              <li> <router-link class="dropdown-item" to="/hidrolatos">Hidrolatos</router-link> </li>
               <li> <router-link class="dropdown-item" to="/mantecas">Mantecas y Ceras</router-link> </li>
               <li> <router-link class="dropdown-item" to="/arcillas">Arcillas</router-link> </li>
                   
