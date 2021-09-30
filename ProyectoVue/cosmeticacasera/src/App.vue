@@ -1,40 +1,45 @@
 <template>
 <div>
- 
-    <nav>
+  
+  <nav>
+
     <div class="container">
-           
-      
-        <img border="0" src="@/assets/logo.png" width="350" height="120">
-           
-          <router-link to="/">Inicio</router-link> |
-          <select name="Productos" background>
-            
-            <option selected value="0"> Productos </option>
-            <option value="1">
-            <router-link to="/aceitesesenciales">Aceites Esenciales</router-link>
-            </option>
-            <option value="2">Aceites Vegetales Puros</option> 
-            <option value="3">Aceites Vegetales Macerados</option>
-            <option value="10">Hidrolatados</option> 
-            <option value="11">Mantecas y Ceras</option> 
-            <option value="12">Arcillas</option>
-            
-          
-            </select>  |       
-          <router-link to="/recetas">Recetas</router-link> |
-          <router-link to="/blog">Blog</router-link> |
-          <router-link to="/nosotros">Nosotros</router-link> |
-          <!--<router-link to="/aceitesesenciales">Aceites Esenciales</router-link> !-->
-          <img border="0" src="./assets/login.png" href= "login.html" width="30" height="30">
-          <img border="0" src="./assets/carrito.png" href= "carrito.html" width="30" height="30">
-           
+     
+      <ul class="barra-navegacion">
+        <img border="0" src="@/assets/logo.png" width="350" height="120">&nbsp;&nbsp;
+        
                 
+          <router-link class="item" to="/">Inicio</router-link> |
+              
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Productos</a> |
+            <ul class="dropdown-menu">
+              <li> <router-link class="dropdown-item" to="/aceitesesenciales">Aceites Esenciales</router-link> </li>
+              <li><router-link class="dropdown-item" to="/aceitespuros">Aceites Vegetales Puros</router-link> </li>
+              <li> <router-link class="dropdown-item" to="/aceitesmacerados">Aceites Vegetales Macerados</router-link> </li>
+              <li> <router-link class="dropdown-item" to="/hidrolatados">Hidrolatados</router-link> </li>
+              <li> <router-link class="dropdown-item" to="/mantecas">Mantecas y Ceras</router-link> </li>
+              <li> <router-link class="dropdown-item" to="/arcillas">Arcillas</router-link> </li>
+                  
+            </ul>
+             
+             
+              <router-link class="item" to= "/recetas">Recetas</router-link> |
+              <router-link class="item" to="/blog">Blog</router-link> |
+              <router-link class="item" to="/nosotros">Nosotros</router-link> &nbsp;
+              <img border="0" src="./assets/login.png" href= "login.html" width="30" height="30">&nbsp;&nbsp;
+              <img border="0" src="./assets/carrito.png" href= "carrito.html" width="30" height="30">
+             </ul>
+
+             
+
+
     </div>
+    
+     <router-view/>
+     
   </nav>
-  
-  <router-view/>
-  
+ 
+ 
       <footer class= "footer" >
         <div class="container">
           <br>
@@ -141,6 +146,7 @@ select a {
     font-family:Montserrat,sans-serif;
     
   }
+  
 
 
 </style>
