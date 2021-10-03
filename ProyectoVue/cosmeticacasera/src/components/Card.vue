@@ -1,18 +1,18 @@
 <template>
   <div class="container">
 
-    <h3>Productos Aceites Macerados</h3>
+   
 
       <div class="container overflow-hidden">
           <div class="row gy-5">
-            <div class="col-4" v-for="producto of productos" :key="producto.id" > 
+            <div class="col-lg-4 col-md-6  col-sm-12"  v-for="categoria of categorias" :key="categoria.id" > 
               <div class="p-3 border bg-light">
                   <div class="card"  style="width: 18rem;">
-                    <img :src="producto.urlfoto" class="card-img-top" alt="Imagene Producto">
+                    <img :src="categoria.urlfoto" class="card-img-top" alt="Imagene categoria">
                       <div class="card-body">
-                        <h5 class="card-title">{{producto.nombre}}</h5>
-                        <p class="card-text">{{producto.descripcion}}</p>
-                        <p class="card-text">$ {{producto.precio_p}}</p>
+                        <h5 class="card-title">{{categoria.nombre}}</h5>
+                        <p class="card-text">{{categoria.contenido}}</p>
+                        
                         
                         <router-link to="/recetas" class="btn btn-primary" >Comprar</router-link>
                                     
@@ -33,7 +33,7 @@ export default {
 name: 'Card',
 computed:{
 
-  ...mapState(['productos'])
+  ...mapState(['categorias'])
 }
 }
 </script>
