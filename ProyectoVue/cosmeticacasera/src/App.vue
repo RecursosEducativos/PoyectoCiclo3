@@ -26,7 +26,7 @@
               <router-link class="item" to= "/recetas">Recetas</router-link> |
               <router-link class="item" to="/blog">Blog</router-link> |
               <router-link class="item" to="/nosotros">Nosotros</router-link> &nbsp;
-              <img border="0" src="./assets/login.png" href= "login.html" width="30" height="30">&nbsp;&nbsp;
+              <router-link class="item" to="/login"><img class="imglogin" border="0" src="./assets/login.png"  width="30" height="30"></router-link>&nbsp;&nbsp;
               <img border="0" src="./assets/carrito.png" href= "carrito.html" width="30" height="30">
              </ul>
 
@@ -146,6 +146,9 @@ select a {
     font-family:Montserrat,sans-serif;
     
   }
+  .imglogin:hover {
+    width: 140%;
+} 
   
 
 

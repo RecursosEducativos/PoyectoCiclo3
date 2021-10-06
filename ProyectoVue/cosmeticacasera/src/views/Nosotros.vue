@@ -4,7 +4,7 @@
         <div class="row gy-5">
           <div class="col-12">
             <div class="p-3 border bg-light" >
-                
+                <br>
                 <h2 >NUESTRO PROYECTO</h2>
                     <br>
                    <h3>
