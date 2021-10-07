@@ -1,25 +1,24 @@
 <template>
-    <div class="container">
+    <div class="Aceitesmacerados">
        
-        <div class="row">
-           
-        <card ></card>
+        <div class="row"><br>
+           <h1>Catálogo de Productos</h1>
+       <productos></productos>
+        
 
     </div>
     </div>
 </template>
 <script>
 
-
-
-import Card from '../components/Card.vue'
-
+import Productos from '../components/Productos.vue'
 
 export default {
+    
     name: 'App',
     components: { 
       
-      Card 
+      Productos
   }
 }
 </script>

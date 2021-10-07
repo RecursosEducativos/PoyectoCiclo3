@@ -3,10 +3,10 @@
 
    
 
-      <div class="container overflow-hidden">
+      <div class="container overflow-hidden" >
           <div class="row gy-5">
             <div class="col-lg-4 col-md-6  col-sm-12"  v-for="categoria of categorias" :key="categoria.id" > 
-              <div class="p-3 border bg-light">
+              <div class="p-3 border bg-light" v-if="categoria.categorias='HD'">
                   <div class="card"  style="width: 18rem;">
                     <img :src="categoria.urlfoto" class="card-img-top" alt="Imagene categoria">
                       <div class="card-body">
