@@ -56,10 +56,10 @@
                       <p align="justify">Somos una empresa de materias 
                         primas para cosmética casera, elaboración cremas, jabones, productos 
                         capilares, aromaterapia y mucho más.
-                      </p>
-                      <img border="0" src="./assets/facebook.png" width="50" height="50">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                      <img border="0" src="./assets/instagram.png" width="48" height="48">
-                    
+                      </p><div> 
+                      <div><router-link to= "https://www.instagram.com/cosmeticasera/"> <img class="imgredes" border="0" src="./assets/facebook.png" width="50" height="50"></router-link></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                       <div><router-link to= "https://www.instagram.com/cosmeticasera/"><img class="imgredes" border="0" src="./assets/instagram.png" width="48" height="48"></router-link></div>
+                        </div>
                       <p>  
                         <br>     
                         <img border="0" src="./assets/logo.png" width="234">
@@ -149,6 +149,9 @@ select a {
   }
   .imglogin:hover {
     width: 140%;
+} 
+.imgredes:hover {
+    width: 10%;
 } 
   
 
