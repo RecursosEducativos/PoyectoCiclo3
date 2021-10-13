@@ -119,6 +119,59 @@ usuarios:[
   
 ],
 
+integrantes: [ 
+  {
+    integrante: 1,
+    nombre: "Paula Guerrero",
+    descripcion:
+      "Soy Administradora de empresas enfocada en el sector inmobiliario hace más de 15 años.  Me encuentro aprendiendo programación y he descubierto que es un universo con infinitas posibilidades. Me ilusiona un proyecto en el que pueda aportar valor y crecer profesional y personalmente.",
+    rol: "Desarrollador backend",
+    urlfoto: "/assets/integrante1.png",
+    ulinkedin: "https://www.linkedin.com/in/paula-a-guerrero/",
+    urlgithub: "https://github.com/Pauleja",
+  },
+  {
+    integrante: 2,
+    nombre: "Ana Silvia Cruz",
+    descripcion:
+      "Soy apasionada por las mejoras de procesos, Creativa y fiel creyente que el compartir conocimientos y ayuda a los demás nos hace crecer infinitamente",
+    rol: "Desarrollador backend",
+    urlfoto: "/assets/integrante2.png",
+    ulinkedin: "https://www.linkedin.com/in/aigleetlion/",
+    urlgithub: "https://github.com/aigleetlion",
+  },
+  {
+    integrante: 3,
+    nombre: "Raúl Soto",
+    descripcion:
+      "Diseñador Mecánico y Analista Programador , disciplinado y enfocado en su trabajo, que se reta constantemente a ser mejor profesional y persona, emprendedor a tiempo completo que ve en la programación una herramienta importante en el desarrollo del pensamiento creativo, los proyectos que desarrollo son enfocados a la educación",
+    rol: "Desarrollador backend",
+    urlfoto: "/assets/integrante3.png",
+    ulinkedin: "https://www.linkedin.com/in/recursos-educativos/",
+    urlgithub: "https://github.com/RecursosEducativos",
+  },
+  {
+    integrante: 4,
+    nombre: "Edelmira Moncada",
+    descripcion:
+      "Capacidad de diagnosticar, innovar y gestionar alternativas con el propósito de alcanzar niveles óptimos de desempeño, motivación para seguir perfeccionado habilidades y crecer profesionalmente, brindar apoyo y ser parte de los desarrolladores de programación. Experiencia en procesamiento y digitalización de información, planeación, ejecución de procesos y asistencia en áreas administrativa y financiera.",
+    rol: "Desarrollador backend",
+    urlfoto: "/assets/integrante4.png",
+    ulinkedin: "https://www.linkedin.com/in/edelmira-moncada/",
+    urlgithub: "https://github.com/edemoncada",
+  },
+  {
+    integrante: 5,
+    nombre: "Zoraida Zambrano",
+    descripcion:
+      "Soy una persona dedicada a mi trabajo, alegre, creativa, solidaria y amable. Con cualidades para el servicio al cliente y trabajo bajo presión en tiempos cortos de producción.",
+    rol: "Desarrollador backend",
+    urlfoto: "/assets/integrante5.png",
+    ulinkedin: "https://www.linkedin.com/in/zoraida-zambrano-95a23720/",
+    urlgithub: "https://github.com/Doszettas",
+  },
+],
+
 
      
   },

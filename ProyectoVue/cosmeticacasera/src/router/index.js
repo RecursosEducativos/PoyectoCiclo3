@@ -74,6 +74,16 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "políticas" */ '../views/Politicas.vue')
   },
+  ,
+  
+  {
+    path: '/team',
+    name: 'Team',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "políticas" */ '../views/Team.vue')
+  },
    
   {
     path: '/preguntasfrecuentes',
@@ -118,6 +128,24 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "recuperacion */ '../views/formularios/Formacceso.vue')
   },
+  
+  {
+    path: '/formularios/actualizarusuario',
+    name: 'Actualizarusuario',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "login" */ '../views/formularios/Actualizarusuario.vue')
+  },
+  {
+    path: '/formularios/eliminarusuario',
+    name: 'Eliminarusuario',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "login" */ '../views/formularios/Eliminarusuario.vue')
+  },
+
   {
     path: '/usuarios',
     name: 'Usuarios',

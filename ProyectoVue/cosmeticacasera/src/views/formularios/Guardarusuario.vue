@@ -28,8 +28,8 @@
 
             <center>
                 
-            <button aling="center" type="submit" class="btn btn-primary">Registrar</button></center>
-            
+            <router-link to="/usuarios"><button aling="center" type="submit" class="btn btn-primary">Registrar</button></router-link></center>
+            <button aling="center" type="submit" class="btn btn-primary" onclick="ConfirmDemo()"> Salir</button>
           
         </form></center>
 
@@ -39,9 +39,19 @@
 
 </template>
 
-<script>
 
+<script type="text/javascript">
+function ConfirmDemo() {
+//Ingresamos un mensaje a mostrar
+var mensaje = confirm("¿Quieres salir ?");
+//Detectamos si el usuario acepto el mensaje
+if (mensaje) {
+alert("¡Gracias por aceptar!");
+}
+
+}
 </script>
+
 
 <style>
 .login{

@@ -19,14 +19,13 @@
                   
             </ul>
              
-             
               <router-link class="item" to= "/recetas">Recetas</router-link> |
               <router-link class="item" to="/blog">Blog</router-link> |
               <router-link class="item" to="/nosotros">Nosotros</router-link> &nbsp;|
-              <router-link class="item" to="/nosotros">Equipo</router-link> &nbsp;|
+              <router-link class="item" to="/team">Equipo</router-link> &nbsp;|
               <router-link class="item" to="/politicas">Políticas</router-link> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               
-              <router-link class="item" to="/login"><img class="imglogin" border="0" src="./assets/login.png"  width="30" height="30"></router-link>&nbsp;&nbsp;
+              <router-link class="item" to="/login"><img class="imglogin" border="0" src="./assets/login.png"  width="50" height="50"></router-link>
               
              </ul>
 
@@ -56,9 +55,9 @@
                         primas para cosmética casera, elaboración cremas, jabones, productos 
                         capilares, aromaterapia y mucho más.
                       </p>
-                      <router-link to="https://www.facebook.com/Cosmeticasera/"><img border="0" src="./assets/facebook.png" width="50" height="50"></router-link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                      <router-link to="https://www.instagram.com/cosmeticasera/" ><img border="0" src="./assets/instagram.png" width="48" height="48"></router-link>
-                    
+                      <a href="https://www.facebook.com/Cosmeticasera/"  target="_blank" class="logo"><img class="imgredes" border="0" src="./assets/facebook.png" width="50" height="50"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <a href="https://www.instagram.com/cosmeticasera/" target="_blank" class="logo"><img class="imgredes" border="0" src="./assets/instagram.png" width="48" height="48"></a>
+                     
                       <p>  
                         <br>     
                         <img border="0" src="./assets/logo.png" width="234">
@@ -72,7 +71,23 @@
                     <p><router-link class="item" to="politicas">Políticas de privacidad</router-link></p>
                     <p><router-link class="item" to="politicas">Políticas de devolución</router-link></p>
                     <p><router-link class="item" to="politicas">Términos y condiciones</router-link></p>
-                    <p><router-link class="item" to="politicas">Preguntas frecuentes</router-link></p>
+                    <p><router-link class="item" to="preguntasfrecuentes">Preguntas frecuentes</router-link></p>
+                    <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                          Preguntas Frecuentes</a>
+                      
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                          <li><router-link class="dropdown-item" to="/preguntasfrecuentes">¿Cuántos días tarda la entrega?</router-link></li>
+                          <li><router-link class="dropdown-item" to="/preguntasfrecuentes">¿Cómo cambiar producto?</router-link></li>
+                          <li><router-link class="dropdown-item" to="/preguntasfrecuentes">¿Cómo devolver un producto?</router-link></li>
+                          <li><router-link class="dropdown-item" to="/preguntasfrecuentes">¿Puedo realizar mi pedido por teléfono o vía whatsapp?</router-link></li>
+                          <li><router-link class="dropdown-item" to="/preguntasfrecuentes">¿Necesito factura con IVA?</router-link></li>
+                          <li><router-link class="dropdown-item" to="/preguntasfrecuentes">Acabo de recibir mi pedido, pero el producto/envase/vaso/termómetro me ha llegado roto.</router-link></li>
+                          <li><router-link class="dropdown-item" to="/preguntasfrecuentes">Acabo de recibir mi pedido, pero falta uno o varios productos.</router-link></li>
+                          <li><router-link class="dropdown-item" to="/preguntasfrecuentes">¿Cuánta cantidad de X producto debo echar a la crema?</router-link></li>
+                          <li><router-link class="dropdown-item" to="/preguntasfrecuentes">¿Cómo debo almacenar los productos en casa? ¿El frigorífico? ¿O no hace falta?</router-link></li>
+                          <li><router-link class="dropdown-item" to="/preguntasfrecuentes">¿El ácido hialurónico que se vende en cosmeticasera es de origen animal?</router-link></li>
+                        </ul></div>
                   </ul>
                 </td>
 
@@ -104,9 +119,6 @@
   </div>
 
 </template>
-
- 
-
 
 <style>
 #app {

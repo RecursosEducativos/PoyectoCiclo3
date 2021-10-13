@@ -7,7 +7,7 @@
           <thead>
 
               <tr >
-                  
+                  <th scope="col">ITEM</th>
                   <th scope="col">NOMBRE</th>
                   <th scope="col">CORRE0</th>
                   <th scope="col">CONTRASEÑA</th>
@@ -16,6 +16,10 @@
 
               </tr>
               <tr align="left" v-for="usuario of usuarios" :key="usuario.id">
+                  <td><div class="form-check"  >
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="item">
+                      
+                      </div></td>
                   <td>{{usuario.nombre}}</td>
                   <td>{{usuario.correo}}</td>
                   <td>{{usuario.password}}</td>
@@ -30,9 +34,9 @@
           <tfoot>
               <tr id="footer-usuario">
             <td><router-link to="/formularios/guardarusuario"> "<button aling="center" type="submit" class="btn btn-primary">Guardar</button></router-link></td>
-            <td><button aling="center" type="submit" class="btn btn-primary">Eliminar</button></td>
-            <td><button aling="center" type="submit" class="btn btn-primary">Actualizar</button></td>
-            <td><button aling="center" type="submit" class="btn btn-primary">Salir</button></td>
+            <td><router-link to="/formularios/eliminarusuario"><button aling="center" type="submit" class="btn btn-primary">Eliminar</button></router-link></td>
+            <td><router-link to="/formularios/actualizarusuario"><button aling="center" type="submit" class="btn btn-primary">Actualizar</button></router-link></td>
+            <td><router-link to="/"><button aling="center" type="submit" class="btn btn-primary">Salir</button></router-link></td>
               </tr>
           </tfoot>
 

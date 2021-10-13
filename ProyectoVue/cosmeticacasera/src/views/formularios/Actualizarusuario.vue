@@ -1,5 +1,5 @@
 <template>
-  <div class="eliminarusuarios">
+  <div class="actualizarusuarios">
 
     
         <div class="container" >
@@ -72,7 +72,7 @@
         </form></center><br>
                 
             
-            <router-link to="/usuarios"><button aling="center" type="submit" class="btn btn-primary">Eliminar</button></router-link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button aling="center" type="submit" class="btn btn-primary">Actualizar</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <router-link to="/usuarios"><button aling="center" type="submit" class="btn btn-primary">Salir</button></router-link>
             
             
