@@ -14,10 +14,7 @@
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Productos</a> |
             <ul class="dropdown-menu">
               <li> <router-link class="dropdown-item" to="/aceitesesenciales">Aceites Esenciales</router-link> </li>
-              <li><router-link class="dropdown-item" to="/aceitespuros">Aceites Vegetales Puros</router-link> </li>
               <li> <router-link class="dropdown-item" to="/aceitesmacerados">Aceites Vegetales Macerados</router-link> </li>
-              <li> <router-link class="dropdown-item" to="/hidrolatos">Hidrolatos</router-link> </li>
-              <li> <router-link class="dropdown-item" to="/mantecas">Mantecas y Ceras</router-link> </li>
               <li> <router-link class="dropdown-item" to="/arcillas">Arcillas</router-link> </li>
                   
             </ul>
@@ -25,10 +22,12 @@
              
               <router-link class="item" to= "/recetas">Recetas</router-link> |
               <router-link class="item" to="/blog">Blog</router-link> |
-              <router-link class="item" to="/nosotros">Nosotros</router-link> &nbsp;
+              <router-link class="item" to="/nosotros">Nosotros</router-link> &nbsp;|
+              <router-link class="item" to="/nosotros">Equipo</router-link> &nbsp;|
+              <router-link class="item" to="/politicas">Políticas</router-link> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               
               <router-link class="item" to="/login"><img class="imglogin" border="0" src="./assets/login.png"  width="30" height="30"></router-link>&nbsp;&nbsp;
-              <img border="0" src="./assets/carrito.png" href= "carrito.html" width="30" height="30">
+              
              </ul>
 
              
@@ -56,10 +55,10 @@
                       <p align="justify">Somos una empresa de materias 
                         primas para cosmética casera, elaboración cremas, jabones, productos 
                         capilares, aromaterapia y mucho más.
-                      </p><div> 
-                      <div><router-link to= "https://www.instagram.com/cosmeticasera/"> <img class="imgredes" border="0" src="./assets/facebook.png" width="50" height="50"></router-link></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                       <div><router-link to= "https://www.instagram.com/cosmeticasera/"><img class="imgredes" border="0" src="./assets/instagram.png" width="48" height="48"></router-link></div>
-                        </div>
+                      </p>
+                      <router-link to="https://www.facebook.com/Cosmeticasera/"><img border="0" src="./assets/facebook.png" width="50" height="50"></router-link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                      <router-link to="https://www.instagram.com/cosmeticasera/" ><img border="0" src="./assets/instagram.png" width="48" height="48"></router-link>
+                    
                       <p>  
                         <br>     
                         <img border="0" src="./assets/logo.png" width="234">
@@ -69,11 +68,11 @@
                         
                 <td width="13%" rowspan="4">
                   <ul >
-                    <p>Políticas de despacho</p>
-                    <p>Políticas de privacidad</p>
-                    <p>Políticas de devolución</p>
-                    <p>Términos y condiciones</p>
-                    <p>Preguntas frecuentes</p>
+                    <p><router-link class="item" to="politicas">Políticas de despacho</router-link></p>
+                    <p><router-link class="item" to="politicas">Políticas de privacidad</router-link></p>
+                    <p><router-link class="item" to="politicas">Políticas de devolución</router-link></p>
+                    <p><router-link class="item" to="politicas">Términos y condiciones</router-link></p>
+                    <p><router-link class="item" to="politicas">Preguntas frecuentes</router-link></p>
                   </ul>
                 </td>
 
@@ -119,7 +118,7 @@
 }
 
 #nav {
-  padding: 30px;
+  padding: 20px;
 }
 
 #nav a {
@@ -147,9 +146,7 @@ select a {
     font-family:Montserrat,sans-serif;
     
   }
-  .imglogin:hover {
-    width: 140%;
-} 
+ 
 .imgredes:hover {
     width: 10%;
 } 

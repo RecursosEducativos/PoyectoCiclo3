@@ -1,4 +1,5 @@
 <template>
+<div class="container">
   <div class="my-5">
       <h4>Carrito de compras</h4>
       <table class="table">
@@ -21,18 +22,21 @@
 
       </table>
   </div>
-
+</div>
 </template>
 
 <script>
 
     import { mapState } from 'vuex'
 export default {
-name: 'Carrito',
-computed:{
 
-  ...mapState(['categorias'])
-}
+    data(){
+
+        return{
+
+        }
+    }
+
 }
 
 </script>

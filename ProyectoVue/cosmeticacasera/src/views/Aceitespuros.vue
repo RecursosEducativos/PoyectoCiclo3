@@ -1,5 +1,24 @@
 <template>
-    <div class="aceitesespuros">
-    <h3 >Página Aceites Puros</h3>
+    <div class="Aceitespuros">
+       
+        <div class="row"><br>
+           <h1>Catálogo de Productos</h1>
+       <productos></productos>
+        
+
+    </div>
     </div>
 </template>
+<script>
+
+import Productos from '../components/Productos.vue'
+
+export default {
+    
+    name: 'App',
+    components: { 
+      
+      Productos
+  }
+}
+</script>

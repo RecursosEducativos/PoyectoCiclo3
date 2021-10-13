@@ -15,21 +15,28 @@
             <div class="mb-3">
                 <label aling="left" for="exampleInputPassword1" class="form-label">Ingresar Contraseña</label>
                 <input type="password" class="form-control" id="exampleInputPassword1">
+                 <div id="passwordHelpBlock" class="form-text">
+                    Su contraseña debe tener entre 8 y 20 caracteres, contener letras y números, y no debe contener espacios, caracteres especiales ni emoji,
+                </div>
                 
             </div>
-
             <center>
                 
             <button aling="center" type="submit" class="btn btn-primary">Ingresar</button>
             <br><br>
-            <h5><router-link class="item" to="/registro">Registrese!</router-link><br><br>
-            <router-link  to="/recuperacion">Olvidó su contraseña?</router-link></h5></center>
+            <h5><router-link class="item" to="/formularios/guardarusuario">Registrese!</router-link><br><br>
+          
+            <router-link class="item" to="/recuperacion">Olvidó su contraseña?</router-link></h5></center>
             
           
         </form></center>
 
     </div>
+
+    
     </div>
+
+    
 
 
 </template>
