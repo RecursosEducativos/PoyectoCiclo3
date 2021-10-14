@@ -21,51 +21,25 @@
             </select></div><br>
         <center><h3>DESCRIPCION</h3><br><form class="forml">
             
-            <div class="input-group mb-3" >
+           <div class="mb-3" >
                 
-                <label aling="left" for="exampleInputEmail1" class="form-label">Código: </label>&nbsp;
-                <input type="text" class="form-control"  id="codigo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-               
-            
-
-            
-                <label aling="left" for="exampleInputPassword1" class="form-label">Categoría: </label>&nbsp;
-                <input type="text" class="form-control" id="categoria">
+                <label aling="left" for="exampleInputEmail1" class="form-label">Modificar Nombre </label>
+                <input type="email" class="form-control" id="nombre" aria-describedby="emailHelp">
                 
             </div>
-            <div class="input-group mb-3" >
+            
+            <div class="mb-3" >
                 
-                <label aling="left" for="exampleInputEmail1" class="form-label">Nombre: </label>&nbsp;
-                <input type="text" class="form-control" id="nombre" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                
-       
-                <label aling="left" for="exampleInputPassword1" class="form-label">Descripción: </label>&nbsp;
-                <textarea class="form-control" id="descripcion" rows="1"></textarea>
-               
+                <label aling="left" for="exampleInputEmail1" class="form-label">Modificar Correo</label>
+                <input type="email" class="form-control" id="modificarcorreo" aria-describedby="emailHelp">
                 
             </div>
 
-            <div class="input-group mb-3" >
-                
-                <label aling="left" for="exampleInputEmail1" class="form-label">Existencia: </label>&nbsp;
-                <input type="text" class="form-control" id="existencia" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                
-            
-                <label aling="left" for="exampleInputPassword1" class="form-label">Precio $ : </label>&nbsp;
-                <input type="text" class="form-control" id="precio">
+            <div class="mb-3">
+                <label aling="left" for="exampleInputPassword1" class="form-label">Modificar Contraseña</label>
+                <input type="password" class="form-control" id="modificarpassword">
                 
             </div>
-            <div class="input-group mb-3" >
-                
-                <label aling="left" for="exampleInputEmail1" class="form-label">Disponible: </label>&nbsp;
-                <input type="text"  class="form-control" placeholder="Si"  id="disponibilidad" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                
-          
-                <label aling="left" for="exampleInputPassword1" class="form-label">imagen : </label>&nbsp;
-                <input type="text" class="form-control" id="imagen">
-                
-            </div>
-
             
             
           
@@ -73,7 +47,7 @@
                 
             
             <button aling="center" type="submit" class="btn btn-primary">Actualizar</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <router-link to="/usuarios"><button aling="center" type="submit" class="btn btn-primary">Salir</button></router-link>
+            <router-link to="/usuarios"><button aling="center" type="submit" class="btn btn-primary" onclick= "history.go(-1);">Salir</button></router-link>
             
             
         

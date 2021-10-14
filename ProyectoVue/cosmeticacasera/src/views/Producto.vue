@@ -6,7 +6,7 @@
         <table class="table">
           <thead>
             <tr>
-              <th scope="col">#</th>
+              <th scope="col">ITEM</th>
               <th scope="col">COD</th>
               <th scope="col">CAT</th>
               <th scope="col">NOMBRE</th>
@@ -20,7 +20,10 @@
           
          
             <tr align="left" v-for="(item, index) in products" :key="index">
-              <th scope="row">{{ index+1 }}</th>
+              <th scope="row"><div class="form-check"  >
+                      <input class="form-check-input" type="radio" name="flexRadioDefault" id="item">
+                      
+                      </div></th>
               <td>{{ item.codigo }}</td>
               <td>{{ item.categoria }}</td>
               <td>{{ item.nombre }}</td>
@@ -34,15 +37,15 @@
             <tbbody >
          
           </tbbody>  
-          <br><br>
+         
 
 
          <tfoot>
-            <tr id="footer-producto">
-            <td><router-link to="/formularios/guardarproducto"> "<button aling="center" type="submit" class="btn btn-primary">Guardar</button></router-link></td>
+            <tr id="footer-usuario"> <br><br>
+            <td><router-link to="/formularios/guardarproducto"><button aling="center" type="submit" class="btn btn-primary">Guardar</button></router-link></td>
             <td><router-link to="/formularios/eliminarproducto"><button aling="center" type="submit" class="btn btn-primary">Eliminar</button></router-link></td>
             <td><router-link to="/formularios/actualizarproducto"><button aling="center" type="submit" class="btn btn-primary">Actualizar</button></router-link></td>
-            <td><router-link to="/"><button aling="center" type="submit" class="btn btn-primary">Salir</button></router-link></td>
+            <td><router-link to="/"><button aling="center" type="submit" class="btn btn-primary" onclick= "history.go(-1);">Salir</button></router-link></td>
             </tr>
             </tfoot>
 

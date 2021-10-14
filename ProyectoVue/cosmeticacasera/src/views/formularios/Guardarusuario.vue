@@ -26,12 +26,13 @@
                 <input type="password" class="form-control" id="password1">
             </div>
 
-            <center>
+            
                 
-            <router-link to="/usuarios"><button aling="center" type="submit" class="btn btn-primary">Registrar</button></router-link></center>
-            <button aling="center" type="submit" class="btn btn-primary" onclick="ConfirmDemo()"> Salir</button>
+            
           
-        </form></center>
+        </form></center><br>
+            <router-link to="/usuarios"><button aling="center" type="submit" class="btn btn-primary">Registrar</button></router-link>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button aling="center" type="submit" class="btn btn-primary" onclick= "history.go(-1);"> Salir</button>
 
     </div>
     </div>

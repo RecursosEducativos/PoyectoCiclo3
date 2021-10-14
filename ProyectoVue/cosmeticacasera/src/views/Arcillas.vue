@@ -1,14 +1,24 @@
 <template>
     <div class="arcillas">
-    <h3 >Página Arcillas</h3>
-    <button onclick="mensaje()" type="button" class="btn btn-primary" >ver mensje</button>
-    <h3 >Página Arcillas</h3>
+       
+        <div class="row"><br>
+           <h1>Catálogo de Arcillas</h1>
+       <productos></productos>
+        
+
+    </div>
     </div>
 </template>
 <script>
 
-function mensaje(){
-alert("esto es un aviso");
-}  
+import Productos from '../components/Productos.vue'
 
+export default {
+    
+    name: 'App',
+    components: { 
+      
+      Productos
+  }
+}
 </script>

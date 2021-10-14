@@ -1,8 +1,8 @@
 <template>
-    <div class="aceitesesenciales">
+    <div class="articulos">
        
         <div class="row"><br>
-           <h1>Catálogo de Aceites Esenciales</h1>
+           <h1>Catálogo de Aceites Puros</h1>
        <productos></productos>
         
 

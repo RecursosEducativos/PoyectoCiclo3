@@ -1,9 +1,9 @@
 <template>
-  <div class="eliminarusuarios">
+  <div class="eliminarproducto">
 
     
         <div class="container" >
-            <h3 >Bienvenido Nombre usuario al sistema de Cosmética Casera</h3>
+            <h3 >Eliminar Producto</h3>
             <br><div class="input-group mb-3">
             
             

@@ -57,6 +57,15 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "productos" */ '../views/Aceitespuros.vue')
   },
+  
+  {
+    path: '/articulos',
+    name: 'Articulos',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "productos" */ '../views/Articulos.vue')
+  },
   {
     path: '/arcillas',
     name: 'Arcillas',
@@ -112,6 +121,15 @@ const routes = [
   }
   ,
   {
+    path: '/formularios/guardarproducto',
+    name: 'Guardarproducto',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "registro */ '../views/formularios/Guardarproducto.vue')
+  }
+  ,
+  {
     path: '/recuperacion',
     name: 'Recuperacion',
     // route level code-splitting
@@ -137,6 +155,15 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "login" */ '../views/formularios/Actualizarusuario.vue')
   },
+  
+  {
+    path: '/formularios/actualizarproducto',
+    name: 'Actualizarproducto',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "login" */ '../views/formularios/Actualizarproducto.vue')
+  },
   {
     path: '/formularios/eliminarusuario',
     name: 'Eliminarusuario',
@@ -145,6 +172,16 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "login" */ '../views/formularios/Eliminarusuario.vue')
   },
+  ,
+  {
+    path: '/formularios/eliminarproducto',
+    name: 'Eliminarproducto',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "login" */ '../views/formularios/Eliminarproducto.vue')
+  },
+
 
   {
     path: '/usuarios',

@@ -7,7 +7,7 @@ export default createStore({
 categorias:[
   
   {
-    categoria:"HD",
+    categoria:"/arcillas",
     nombre:"HIDROLATOS",
     nombre_foto:"H_P.png",
     urlfoto:"/assets/H_P.png",
@@ -16,14 +16,14 @@ categorias:[
       
   {
   
-  categoria:"AV",
+  categoria:"/aceitespuros",
   nombre:"ACEITES VEGETALES PUROS",
   nombre_foto:"AV_P.png",
   urlfoto:"/assets/AV_P.png",
   contenido:"Los aceites vegetales son sustancias de naturaleza grasa e insolubles en agua, líquidos a temperatura ambiente. Normalmente se obtienen por prensado de semillas o frutos y son ricos en ácidos grasos insaturados.La utilización de aceites naturales para uso cosmético no es algo nuevo, ya que se ha estado utilizando hace siglos como tratamiento de belleza."
 },
 {
-  categoria:"AM",
+  categoria:"aceitespuros",
   nombre:"ACEITES VEGETALES MACERADOS",
   nombre_foto:"AM_P.png",
   urlfoto:"/assets/AM_P.png",
@@ -31,14 +31,14 @@ categorias:[
   
 },
 {
-  categoria:"AE",
+  categoria:"aceitesesenciales",
   nombre:"ACEITES ESENCIALES",
   urlfoto:"/assets/AE_P.png",
   contenido:"Los aceites esenciales son concentrados que se extraen directamente de árboles y plantas aromáticas. Al obtenerse de forma tan directa, se les considera aceites puros, y contienen un sinfín de propiedades que pueden ayudar muy positivamente si se usan bien (nunca directamente; siempre diluidos en otros elementos)."
           },
 
   {
-    categoria:"MT",
+    categoria:"aceitesesenciales",
     nombre:"MANTECAS Y CERAS",
     nombre_foto:"MT_P.png",
     urlfoto:"/assets/MT_P.png",
@@ -46,7 +46,7 @@ categorias:[
   },
   
 { 
-  categoria:"ARC",
+  categoria:"/arcillas",
   nombre:"ARCILLAS",
   nombre_foto:"A_P.png",
   urlfoto:"/assets/A_P.png",

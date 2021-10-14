@@ -1,8 +1,8 @@
 <template>
-    <div class="Aceitespuros">
+    <div class="aceitespuros">
        
         <div class="row"><br>
-           <h1>Catálogo de Productos</h1>
+           <h1>Catálogo de Aceites Puros</h1>
        <productos></productos>
         
 

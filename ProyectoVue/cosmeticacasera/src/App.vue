@@ -14,7 +14,7 @@
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Productos</a> |
             <ul class="dropdown-menu">
               <li> <router-link class="dropdown-item" to="/aceitesesenciales">Aceites Esenciales</router-link> </li>
-              <li> <router-link class="dropdown-item" to="/aceitesmacerados">Aceites Vegetales Macerados</router-link> </li>
+              <li> <router-link class="dropdown-item" to="/aceitespuros">Aceites Puros</router-link> </li>
               <li> <router-link class="dropdown-item" to="/arcillas">Arcillas</router-link> </li>
                   
             </ul>
