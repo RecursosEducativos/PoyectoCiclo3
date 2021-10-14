@@ -32,11 +32,11 @@
           </tbbody>      
                   
           <tfoot>
-              <tr id="footer-usuario">
-            <td><router-link to="/formularios/guardarusuario"> "<button aling="center" type="submit" class="btn btn-primary">Guardar</button></router-link></td>
-            <td><router-link to="/formularios/eliminarusuario"><button aling="center" type="submit" class="btn btn-primary">Eliminar</button></router-link></td>
+            <tr id="footer-usuario">
+            <td><router-link to="/formularios/guardarusuario"><button aling="center" type="submit" class="btn btn-primary">Guardar</button></router-link></td>
+            <td><router-link to="/formularios/guardarusuario"><button aling="center" type="submit" class="btn btn-primary">Eliminar</button></router-link></td>
             <td><router-link to="/formularios/actualizarusuario"><button aling="center" type="submit" class="btn btn-primary">Actualizar</button></router-link></td>
-            <td><router-link to="/"><button aling="center" type="submit" class="btn btn-primary">Salir</button></router-link></td>
+            <td><button aling="center" type="submit" class="btn btn-primary">Salir</button></td>
               </tr>
           </tfoot>
 

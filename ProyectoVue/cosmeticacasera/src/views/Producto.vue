@@ -1,76 +1,82 @@
 <template>
   <div class="producto">
-  <div class= "container">
-  <div class="my-5">
-      <h4>Carrito de compras</h4>
-      <table class="table">
+    <div class="container">
+      <div class="my-5">
+        <h4>LISTADO PRODUCTOS</h4>
+        <table class="table">
           <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">COD</th>
+              <th scope="col">CAT</th>
+              <th scope="col">NOMBRE</th>
+              <th scope="col">DESCRIPCIÓN</th>
+              <th scope="col">PRESENTACIÓN</th>
+              <th scope="col">INV</th>
+              <th scope="col">PRECIO</th>
+              <th scope="col">DISP</th>
+              <th scope="col">IMAGEN</th>
+            </tr>
+          
+         
+            <tr align="left" v-for="(item, index) in products" :key="index">
+              <th scope="row">{{ index+1 }}</th>
+              <td>{{ item.codigo }}</td>
+              <td>{{ item.categoria }}</td>
+              <td>{{ item.nombre }}</td>
+              <td>{{ item.descripcion}}</td>
+              <td>{{ item.presentacion}}</td>
+              <td>{{ item.inv }}</td>
+              <td>{{ item.precio }}</td>
+              <td>{{ item.disponibilidad }}</td>
+              <td>{{ item.imagen }}</td>
+            </tr></thead>
+            <tbbody >
+         
+          </tbbody>  
+          <br><br>
 
-              <tr >
-                  <th scope="col">#</th>
-                  <th scope="col">COD</th>
-                  <th scope="col">CAT</th>
-                  <th scope="col">NOMBRE</th>
-                  <th scope="col">DESCRIPCIÓN</th>
-                  <th scope="col">PRESENTACIÓN</th>
-                  <th scope="col">INV</th>
-                  <th scope="col">PRECIO</th>
-                  <th scope="col">DISP</th>
-                  <th scope="col">IMAGEN</th>
-                
 
-              </tr></thead>
-          <tbbody id = "items">
-          <tr v-for="(item,index) in productos" :key="index">
-                  <th scope="row">{{item._id}}</th>
-                  <td>{{item.codigo}}</td>
-                  <td>{{item.categoria}}</td>
-                  <td>{{item.nombre}}</td>
-                  <td>{{item.descrpcion}}</td>
-                  <td>{{item.presentacion}}</td>
-                  <td>{{item.inv}}</td>
-                  <td>{{item.precio}}</td>
-                  <td>{{item.disponibilidad}}</td>
-                  <td>{{item.imagen}}</td></tr></tbbody>
-          <tfoot>
-              <tr id="footer-carrito">
-                  <th scope="row" colspan="5">Carrito Vacío </th>
-              </tr>
-          </tfoot>
+         <tfoot>
+            <tr id="footer-producto">
+            <td><router-link to="/formularios/guardarproducto"> "<button aling="center" type="submit" class="btn btn-primary">Guardar</button></router-link></td>
+            <td><router-link to="/formularios/eliminarproducto"><button aling="center" type="submit" class="btn btn-primary">Eliminar</button></router-link></td>
+            <td><router-link to="/formularios/actualizarproducto"><button aling="center" type="submit" class="btn btn-primary">Actualizar</button></router-link></td>
+            <td><router-link to="/"><button aling="center" type="submit" class="btn btn-primary">Salir</button></router-link></td>
+            </tr>
+            </tfoot>
 
       </table>
   </div>
 </div></div>
-    
+
 </template>
 
 <script>
+import axios from "axios";
 
 export default {
   data() {
-    return{
-
-      productos:[]
-    }
+    return {
+      products: [],
+    };
   },
-  create(){
-   this.listarProductos();
-  },
-
-  methods:{
-  listarProductos(){
-
-
-    this.axios.get('/producto')
-    .then(res=>{
-      this.productos=res.data;
-    })
-      .catch(e=>{
-
-        console.log(e.response)
+  created() {
+     console.log('hola mundo');
+    axios
+      .get("http://localhost:3080/products")
+      .then((res) => {
+       
+        this.products = res.data;
+        console.log(this.products);
       })
-  }
+      .catch((e) => {
+        console.log(e.response);
+      });
+  },
 
-}
-}
+  methods: {
+    listarProductos() {},
+  },
+};
 </script>
