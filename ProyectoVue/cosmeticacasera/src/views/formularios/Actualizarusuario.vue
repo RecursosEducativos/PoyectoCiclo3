@@ -19,7 +19,7 @@
                 <option value="2">Two</option>
                 <option value="3">Three</option>
             </select></div><br>
-        <center><h3>DESCRIPCION</h3><br><form class="forml">
+        <center><h3>DESCRIPCION</h3><br><form class="forml" @submit.prevent= "submit">
             
            <div class="mb-3" >
                 

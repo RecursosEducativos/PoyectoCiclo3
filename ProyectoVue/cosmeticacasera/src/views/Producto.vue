@@ -81,5 +81,9 @@ export default {
   methods: {
     listarProductos() {},
   },
+  eliminarProductos(id){
+
+    //this.axios.delete(´/producto/ ${id}´)
+  },
 };
 </script>

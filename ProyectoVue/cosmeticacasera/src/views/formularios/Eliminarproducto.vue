@@ -23,7 +23,7 @@
             
             <div class="input-group mb-3" >
                 
-                <label aling="left" for="exampleInputEmail1" class="form-label">Código: </label>&nbsp;
+                <label aling="left" for="exampleInputEmail1" class="form-label" @submit.prevent= "submit">Código: </label>&nbsp;
                 <input type="text" class="form-control"  id="codigo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                
             

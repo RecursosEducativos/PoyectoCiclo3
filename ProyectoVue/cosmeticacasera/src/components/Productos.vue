@@ -17,7 +17,7 @@
                         <p class="card-text">DISPONIBLE: {{item.disponibilidad}}</p>
                         
                         
-                        <router-link to="/recetas" class="btn btn-primary" >Comprar</router-link>
+                        <router-link to="" class="btn btn-primary" >Añadir</router-link>
                                     
                       </div>
                   </div>

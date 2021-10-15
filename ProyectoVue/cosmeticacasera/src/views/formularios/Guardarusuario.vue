@@ -3,7 +3,7 @@
     
         <div class="container" >
             <h3 >Registro</h3>
-        <center><form class="forml">
+        <center><form class="forml" @submit.prevent= "GuardarUsuario">
             
             <div class="mb-3" >
                 

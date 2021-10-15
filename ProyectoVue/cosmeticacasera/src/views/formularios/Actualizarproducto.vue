@@ -19,7 +19,7 @@
                 <option value="2">Two</option>
                 <option value="3">Three</option>
             </select></div><br>
-        <center><h3>DESCRIPCION</h3><br><form class="form row g-3" @submit.prevent= "submit" >
+        <center><h3>DESCRIPCION</h3><br><form class="form row g-3" @submit.prevent= "actualizarProducto" >
             
             <div class="input-group mb-3" >
                 
